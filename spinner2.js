@@ -1,7 +1,6 @@
 const arr = ['\r|   ', '\r/   ', '\r-   ', '\r\\   ']
-
-for (let item of arr) {
 let delay = 100;
+for (let item of arr) {
 setTimeout(() => {
   process.stdout.write(item);
 }, delay);
